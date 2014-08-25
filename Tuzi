@@ -1,1 +1,13 @@
-Hejhejhej
+__author__ = 'aldin'
+def intro():
+    print "Ah, the City of Tuzi, where the favorite beverage is a cold Carlsberg at both day and night.\n" \
+      "Women are shaved and they love to be held.\n" \
+      "You could make her your own but take good known, the loyalty in these ones is not as it is shown.\n"
+    fee = raw_input("Greetings adventurer! Enterance fee to the City of Tuzi is 3 silver, do you want to come in? > ")
+
+    if fee == "yes":
+        print "Welcome to the City of Tuzi! Adventurer, what is your name?"
+    else:
+        print "Then you have to go back to Rah, on your way now."
+
+intro()
