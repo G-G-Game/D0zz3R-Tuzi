@@ -1,0 +1,12 @@
+birthday = raw_input("Please enter birthday (YYYY-MM-DD) > ")
+
+yy = raw_input('Year: ')
+mm = raw_input('Month: ')
+dd = raw_input('Day: ')
+xxxx = raw_input('personal number:')
+
+
+ref birthdate(yy, mm, dd, xxxx):
+print("Har ar ditt personnr= "+yy+mm+dd+"-"+xxxx)
+birthdate(yy,mm,dd,xxxx)
+
