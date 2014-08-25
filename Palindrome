@@ -1,0 +1,11 @@
+
+my_part =  raw_input("Enter word: ")
+
+my_part = my_part.upper()
+
+rev_part = reversed(my_part)
+
+if list(my_part) == list(rev_part):
+   print(my_part+" is palindrome")
+else:
+   print("It is not palindrome")
