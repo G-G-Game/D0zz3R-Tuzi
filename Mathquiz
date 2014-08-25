@@ -1,0 +1,32 @@
+def intro():
+    print"Welcome to the math quiz 2014!"
+    userInput = raw_input("Hit Enter To Begin!")
+    if len(userInput) > 0 :
+        intro()
+    else:
+        math()
+
+
+    math()
+
+def math():
+    print" Question 1: "
+    a = raw_input("What is 1 + 1? >")
+    if a == "2":
+        print "GJ!"
+        math2()
+    else:
+        print "Fail, try again!"
+        math()
+
+def math2():
+    print" Question 2: "
+    b = raw_input("What is 20*10? >")
+    if b == "200":
+        print "GJ!"
+    else:
+        print "Fail, try again!"
+        math2()
+
+
+intro()
